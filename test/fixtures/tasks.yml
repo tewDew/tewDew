@@ -3,13 +3,13 @@
 one:
   name: MyString
   description: MyString
-  position: 1
+  priority: 1
   complete: false
   due_date: 2015-10-16
 
 two:
   name: MyString
   description: MyString
-  position: 1
+  priority: 1
   complete: false
   due_date: 2015-10-16

@@ -18,7 +18,7 @@ class TasksControllerTest < ActionController::TestCase
 
   test "should create task" do
     assert_difference('Task.count') do
-      post :create, task: { complete: @task.complete, description: @task.description, due_date: @task.due_date, name: @task.name, position: @task.position }
+      post :create, task: { complete: @task.complete, description: @task.description, due_date: @task.due_date, name: @task.name, priority: @task.priority }
     end
 
     assert_redirected_to task_path(assigns(:task))
@@ -35,7 +35,7 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   test "should update task" do
-    patch :update, id: @task, task: { complete: @task.complete, description: @task.description, due_date: @task.due_date, name: @task.name, position: @task.position }
+    patch :update, id: @task, task: { complete: @task.complete, description: @task.description, due_date: @task.due_date, name: @task.name, priority: @task.priority }
     assert_redirected_to task_path(assigns(:task))
   end
 

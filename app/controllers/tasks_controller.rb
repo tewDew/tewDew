@@ -30,6 +30,15 @@ class TasksController < ApplicationController
     end
   end
 
+
+  def sort
+    params[:order].each do |key,value|
+      Task.find(value[:id]).update_attribute(:priority,value[:position])
+    end
+    render :nothing => true
+  end
+
+
   # PATCH/PUT /tasks/1
   def update
     if @task.update(task_params)
@@ -53,6 +62,6 @@ class TasksController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def task_params
-      params.require(:task).permit(:name, :description, :position, :complete, :due_date)
+      params.require(:task).permit(:name, :description, :priority, :complete, :due_date)
     end
 end
