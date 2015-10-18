@@ -1,4 +1,6 @@
 <h1>tewDew</h1>
+
+<form class="form-inline" role="form">
 <h2>Incomplete Tasks</h2>
 <div class="tasks sortable" id="incomplete_tasks">
   <%= render @tasks %>
@@ -8,9 +10,10 @@
 <div class="tasks sortable" id="complete_tasks">
   <%= render @tasks %>
 </div>
+</form>
 
 <div id="new_link">
-  <p><%= link_to "Create Task", new_task_path, id: "new_link", remote: true %></p>
+  <p class="task-muted"><%= link_to "Create Task", new_task_path, id: "new_link", remote: true %></p>
 </div>
 
 
