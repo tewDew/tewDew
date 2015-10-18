@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+.button_to {
+  color: red;
+  background-color: red;
+}
+.btn {
+  background: #222;
+  background-image: linear-gradient(to bottom, #ff0d04, #ff0d04);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-create {
+  background: #222;
+  background-image: linear-gradient(to bottom, #ff0d04, #ff0d04);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
