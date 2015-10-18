@@ -1,6 +1,14 @@
-#Tew Dew#
+# Tew Dew
 
-_an app for creating and organizing all those things you need to do._
+A simple web app for organizing all those things you need to do.
 
-This app is still in production. Check back in the future to test out the app
-for yourself via Heroku. 
+## Description
+
+Do you like to do things? Do you need Mountain Dew to get them all done? Well this
+is the to-do manager for you!
+
+The app's interface is carefully designed to get you pumped to finish all your things.
+And simple drag-and-drop functionality makes it easier than ever to keep all your tasks
+organized just right.
+
+Now you have no excuse. Get out there right now, and Dew it.
