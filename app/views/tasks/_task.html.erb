@@ -3,7 +3,6 @@
     <%= form_for task, remote: true do |f| %>
         <h4><%= task.name %></h4>
         <%= task.description %>
-        <%= task.priority %>
         <%= button_to "delete task", task, method: :delete, remote: true %>
     <% end %>
   </div>

@@ -1,13 +1,16 @@
-<h1>tewDew</h1>
+<h3><img src="http://i.imgur.com/LP2gCs5.jpg" title="source: imgur.com" /></h3>
 
-<h2>All Tasks</h2>
+<p><img src="http://i.imgur.com/pgVIUsW.gif" title="source: imgur.com" /></p>
+
+<h2>all tasks</h2>
 <div class="tasks sortable" id="all_tasks">
   <%= render @tasks %>
 </div>
 
+<div class ="empty"></div>
 
 <div id="new_link">
-  <p class="task-muted"><%= link_to "Create Task", new_task_path, id: "new_link", remote: true %></p>
+  <%= link_to "create new task", new_task_path, id: "new_link", remote: true %>
 </div>
 
 

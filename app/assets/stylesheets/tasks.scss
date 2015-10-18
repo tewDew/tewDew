@@ -1,25 +1,73 @@
 
 .sortable-placeholder {
-  border: 1px dashed #CCC;
-  background-color: #f9f9f9;
+  background-color: #B0D773;
   height: 80px;
   margin-bottom: 10px;
+}
+
+#all_tasks {
+  padding-bottom: 30px;
+}
+
+div #new_link {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.field {
+  padding-top: 10px;
+  color: #593B1A;
+  font-weight: bold;
+}
+
+.empty {
+  margin-bottom: 40px;
 }
 
 .sortable {
   display: list-item;
 }
 
-div {
-  padding-left: 50px;
+h3 {
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-bottom: 50px;
 }
 
+p {
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
+  float: left;
+}
+
+div {
+  padding-left: 10px;
+  font-family: helvetica;
+  font-size: 20px;
+  color: #0E6A39;
+
+}
+
+
 h2 {
-  padding-left: 50px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #593B1A;
+  font-size: 40px;
+  padding-bottom: 20px;
 }
 
 h1 {
-  padding-left: 80px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  color: #593B1A;
+  padding-left: 550px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+
+body {
+  background-color: #B0D773;
 }

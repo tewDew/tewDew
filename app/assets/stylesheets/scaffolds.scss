@@ -14,20 +14,23 @@ p, ol, ul, td {
 
 pre {
   background-color: #eee;
-  padding: 10px;
+  padding: 20px;
   font-size: 11px;
 }
 
 a {
-  color: #000;
+  padding-top: 20px;
+  color: #593B1A;
+  text-decoration: none;
+  font-family: helvetica;
 
   &:visited {
-    color: #666;
+    color: #593B1A;
   }
 
   &:hover {
-    color: #fff;
-    background-color: #000;
+    color: #B0D874;
+    background-color: #0E6A39;
   }
 }
 
