@@ -1,12 +1,10 @@
 <div class="panel panel-default" data-id="<%= task.id %>">
-
-
-<%= form_for task do |f| %>
-    <%= task.description %>
-    <%= task.priority %>
-    <%= f.date_field :due_date %>
-    <%= f.check_box :complete %>
-<% end %>
-
-
+  <div id="edit_task_<%= task.id %>" >
+    <%= form_for task, remote: true do |f| %>
+        <h4><%= task.name %></h4>
+        <%= task.description %>
+        <%= task.priority %>
+        <%= button_to "delete task", task, method: :delete, remote: true %>
+    <% end %>
+  </div>
 </div>
