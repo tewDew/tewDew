@@ -7,6 +7,10 @@
   <div class="field">
     <%= f.hidden_field :priority %>
   </div>
+  <div class="field">
+    <%= f.label :due_date %> (optional)<br>
+    <%= f.date_field :due_date %>
+  </div>
   <div class="actions">
     <%= f.submit class: 'btn'%>
   </div>

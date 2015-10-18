@@ -3,7 +3,10 @@
     <%= form_for task, remote: true do |f| %>
         <h4><%= task.name %></h4>
         <%= task.description %>
-        <%= button_to "delete task", task, method: :delete, remote: true, class: 'btn' %>
+
+        <%= task.due_date %>
+        <%= button_to "delete task", task, id: "delete", method: :delete, remote: true, class: 'btn' %>
+
     <% end %>
   </div>
 </div>
